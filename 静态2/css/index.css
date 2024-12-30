@@ -1,0 +1,101 @@
+#main {
+  background: white;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: calc(100% - 40px);
+  display: flex;
+  flex-direction: column; }
+  #main .top {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center; }
+    #main .top i {
+      color: #e44540;
+      font-size: 1.2rem;
+      margin-right: 0.2rem; }
+    #main .top span {
+      font-size: 1rem;
+      margin-left: 0.3rem; }
+    #main .top button {
+      margin-left: auto;
+      background: #e44540;
+      color: white;
+      font-size: 1rem;
+      outline: none;
+      border: none;
+      height: 1.8rem;
+      width: 4rem;
+      border-radius: 0.9rem; }
+  #main .t1 {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid gray; }
+    #main .t1 i {
+      color: #0ab80b;
+      font-size: 1rem; }
+    #main .t1 span {
+      margin-left: 0.5rem;
+      font-size: 1rem; }
+  #main .des {
+    padding: 0.8rem 0;
+    color: #9f9f9f;
+    font-size: 0.9rem; }
+  #main .order .o1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    #main .order .o1 span {
+      font-size: 1rem; }
+    #main .order .o1 i {
+      font-size: 1rem;
+      color: #c0c0c0;
+      font-weight: bold; }
+  #main .order .o2 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between; }
+    #main .order .o2 .right {
+      display: flex;
+      flex-direction: column; }
+      #main .order .o2 .right span:nth-child(1) {
+        color: #e44540;
+        font-size: 2rem; }
+      #main .order .o2 .right .small {
+        font-size: 0.9rem;
+        color: gray;
+        margin-left: auto; }
+    #main .order .o2 .left {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem; }
+      #main .order .o2 .left .item {
+        display: flex; }
+        #main .order .o2 .left .item span:nth-child(1) {
+          color: gray;
+          width: 6rem; }
+  #main .order #t2 {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    background: #fff7d6;
+    color: #c1ac7c;
+    padding: 1rem; }
+  #main .box img {
+    width: 100%; }
+  #main .cancle {
+    margin-top: auto;
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+    background: white;
+    outline: none;
+    height: 2.5rem;
+    border: 0.2rem solid #dad7d7; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=index.css.map */

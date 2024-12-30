@@ -1,0 +1,155 @@
+#main {
+  background: white;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+  .top {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+
+    i {
+      color: #e44540;
+      font-size: 1.2rem;
+      margin-right: 0.2rem;
+    }
+
+    span {
+      font-size: 1rem;
+      margin-left: 0.3rem;
+    }
+
+    button {
+      margin-left: auto;
+      background: #e44540;
+      color: white;
+      font-size: 1rem;
+      outline: none;
+      border: none;
+      height: 1.8rem;
+      width: 4rem;
+      border-radius: 0.9rem;
+    }
+  }
+
+  .t1 {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+
+    i {
+      color: #0ab80b;
+      font-size: 1rem;
+    }
+
+    span {
+      margin-left: 0.5rem;
+      font-size: 1rem;
+    }
+
+    padding: 0.8rem 0;
+    border-bottom: 1px solid gray;
+  }
+
+  .des {
+    padding: 0.8rem 0;
+    color: #9f9f9f;
+    font-size: 0.9rem;
+  }
+
+
+  .order {
+    .o1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      span {
+        font-size: 1rem;
+      }
+
+      i {
+        font-size: 1rem;
+        color: #c0c0c0;
+        font-weight: bold;
+      }
+    }
+
+    .o2 {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+
+      .right {
+        display: flex;
+        flex-direction: column;
+
+        span:nth-child(1) {
+          color: #e44540;
+          font-size: 2rem;
+        }
+
+        .small {
+          font-size: 0.9rem;
+          color: gray;
+          margin-left: auto;
+        }
+
+      }
+
+      .left {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+
+        .item {
+          display: flex;
+
+          span:nth-child(1) {
+            color: gray;
+            //  制表符空格
+            width: 6rem;
+          }
+
+          span:nth-child(2) {
+          }
+
+        }
+      }
+    }
+
+    #t2 {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      background: #fff7d6;
+      color: #c1ac7c;
+      padding: 1rem;
+    }
+  }
+
+  .box {
+    img {
+      width: 100%;
+    }
+  }
+
+  .cancle {
+    margin-top: auto;
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+    background: white;
+    outline: none;
+    height: 2.5rem;
+    border: 0.2rem solid #dad7d7;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
